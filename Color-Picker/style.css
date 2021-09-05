@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+
+body{
+    font-family: 'Raleway Dots', cursive;
+    text-align: center;
+    background-color: bisque;
+    
+}
+h1{
+    text-decoration:solid;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    border:0px 10px 10px 0px, solid black;
+}
+
+.picker{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.lcolorcode , .rcolorcode{
+    background:transparent;
+    width:100px 100px;
+    border-radius: 10px;
+     margin: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+#radial-btn{
+    text-shadow: 10px 10px 9px black;
+    text-transform:uppercase;
+    text-decoration:dotted;
+    position: relative;
+    margin: 100px 0 100px 0;
+   
+    background: transparent;
+    border:none;
+}
+#linear-btn{
+    text-shadow: 10px 10px 9px black;
+    text-transform:uppercase;
+    position: relative;
+    margin: 100px 0 100px 0;
+    
+    background: transparent;
+    border:none;
+}
+
+#btn-cntn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0),inset 2px 3px 4px 3px black;
+   
+}
+
+.btns{
+    box-shadow: 7px 7px 5px rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    height:250px;
+    background:linear-gradient(to top, rgb(23, 208, 232), rgb(255, 0, 174));
+}
+
+.btns:hover{
+    transition: ease-in 1s;
+    transform:translateY(10%)
+}
+
+#goto-linear{
+    border-radius: 5px;
+    height: 40px;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+#goto-gradient{
+    border-radius: 5px;
+    height: 40px;
+    background-color: aliceblue;
+    border: 1px solid black;
+
+}
